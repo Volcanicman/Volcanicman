@@ -1,0 +1,130 @@
+/* .themify_builder_7_row.module_row_0 Style */
+.themify_builder_7_row.module_row_0.module_row {
+	background-image: url(../../../wp-content/uploads/2017/05/Banner-1024x474.jpg);
+	text-align: center;
+	color: #ffffff;
+	padding-top : 22%;
+	padding-bottom : 15%
+}
+.themify_builder_7_row.module_row_0.module_row h1 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_0.module_row h2 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_0.module_row h3:not(.module-title) {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_0.module_row h4 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_0.module_row h5 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_0.module_row h6 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_0.module_row>.builder_row_cover {
+	background:rgba(0,0,0, 0.61)
+}
+.themify_builder_7_row.module_row_0.module_row> div > .builder_row_cover {
+	background:rgba(0,0,0, 0.61)
+}
+
+@media screen and (max-width: 480px) {/* .themify_builder_7_row.module_row_0 Style */
+.themify_builder_7_row.module_row_0.module_row {
+	padding-top : 29%
+}
+
+}
+.themify_builder .text-7-0-0-2.module-text { column-count: 1;  } 
+/* .themify_builder_7_row.module_row_1 Style */
+.themify_builder_7_row.module_row_1.module_row {
+	padding-top : 8%
+}
+
+@media screen and (max-width: 480px) {/* .themify_builder_7_row.module_row_1 Style */
+.themify_builder_7_row.module_row_1.module_row {
+	padding-top : 14%
+}
+
+}
+.themify_builder .text-7-1-0-1.module-text { color: #400000; text-align: center; column-count: 1; padding-right: 6%; padding-left: 6%; margin-bottom: 50px; border-top-color: #fdf5f4; border-top-width: 5px; border-top-style: solid; border-right-color: #fdf5f4; border-right-width: 5px; border-right-style: solid; border-bottom-color: #fdf5f4; border-bottom-width: 5px; border-bottom-style: solid; border-left-color: #fdf5f4; border-left-width: 5px; border-left-style: solid;  } 
+.themify_builder .text-7-1-0-1.module-text h1 { color: #400000;  } 
+.themify_builder .text-7-1-0-1.module-text h2 { color: #400000;  } 
+.themify_builder .text-7-1-0-1.module-text h3:not(.module-title) { color: #400000;  } 
+.themify_builder .text-7-1-0-1.module-text h4 { color: #400000;  } 
+.themify_builder .text-7-1-0-1.module-text h5 { color: #400000;  } 
+.themify_builder .text-7-1-0-1.module-text h6 { color: #400000;  } 
+@media screen and (max-width: 480px) {/* .themify_builder_7_row.module_row_2 Style */
+.themify_builder_7_row.module_row_2.module_row {
+	padding-top : 12%
+}
+
+}
+.themify_builder .text-7-2-0-1.module-text { text-align: center; column-count: 1;  } 
+/* .themify_builder_7_row.module_row_3 Style */
+.themify_builder_7_row.module_row_3.module_row {
+	background-image: url(../../../wp-content/uploads/2017/05/Contact-banner-1-1024x569.jpg);
+	background-color: #000000;
+	background-color: rgba(0,0,0, 0.61);
+	color: #ffffff;
+	padding-top : 6%;
+	padding-bottom : 6%
+}
+.themify_builder_7_row.module_row_3 a {
+	color: #fcffcc
+}
+.themify_builder_7_row.module_row_3.module_row h1 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_3.module_row h2 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_3.module_row h3:not(.module-title) {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_3.module_row h4 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_3.module_row h5 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_3.module_row h6 {
+	color: #ffffff
+}
+.themify_builder_7_row.module_row_3.module_row>.builder_row_cover {
+	background:rgba(0,0,0, 0.58)
+}
+.themify_builder_7_row.module_row_3.module_row> div > .builder_row_cover {
+	background:rgba(0,0,0, 0.58)
+}
+
+@media screen and (max-width: 480px) {/* .themify_builder_7_row.module_row_3 Style */
+.themify_builder_7_row.module_row_3.module_row {
+	padding-top : 12%;
+	padding-bottom : 12%
+}
+
+}
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text { color: #ffffff; text-align: center; column-count: 1; margin-bottom: 50px;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text h1 { color: #ffffff;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text h2 { color: #ffffff;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text h3:not(.module-title) { color: #ffffff;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text h4 { color: #ffffff;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text h5 { color: #ffffff;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text h6 { color: #ffffff;  } 
+.themify_builder .contact-7-sub_row_3-0-1-1-0.module-contact .builder-contact-field-send button { background-color: #eb2305;  } 
+/* .themify_builder_7_row.module_row_4 Style */
+.themify_builder_7_row.module_row_4.module_row {
+	background-image: url(../../../wp-content/uploads/2017/05/Banner.jpg)
+}
+.themify_builder_7_row.module_row_4.module_row>.builder_row_cover {
+	background:rgba(28,2,2, 0.74)
+}
+.themify_builder_7_row.module_row_4.module_row> div > .builder_row_cover {
+	background:rgba(28,2,2, 0.74)
+}
+
+.themify_builder .text-7-4-0-1.module-text { column-count: 1;  } 
+.themify_builder .text-7-sub_row_4-0-2-1-0.module-text { column-count: 1;  } 
