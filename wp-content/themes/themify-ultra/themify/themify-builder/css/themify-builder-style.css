@@ -1641,7 +1641,7 @@ IMAGE MODULE
 VIDEO MODULE
 *************************************************************************************/
 .module-video {
-	margin-bottom: 2em;
+	background-color: #000;
 }
 .module-video .video-title {
 	margin: 0 0 .5em;

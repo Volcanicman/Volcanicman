@@ -13,27 +13,21 @@
         if (form.find('[name="g-recaptcha-response"]').length > 0) {
             data['contact-recaptcha'] = form.find('[name="g-recaptcha-response"]').val();
         }
-        $.ajax({
-            url: form.prop('action'),
-            method: 'POST',
-            data: data,
-            dataType: 'json',
-            success: function (data) {
-                if (data && data.themify_message) {
-                    form.find('.contact-message').html(data.themify_message).fadeIn();
-                    form.removeClass('sending');
-                    if (data.themify_success) {
-                        $('body').trigger('builder_contact_message_sent', [form, data.themify_message]);
-                        form[0].reset();
-                    } else {
-                        $('body').trigger('builder_contact_message_failed', [form, data.themify_message]);
-                    }
-                    if ( typeof grecaptcha === 'object' ) {
-                        grecaptcha.reset();
-                    }
-                }
-            }
-        });
+
+        window.location = 'mailto:volcanicint@gmail.com' +
+            '?subject=Volcanic International' +
+            '&body=' + data["contact-message"];
+
+        form.find('.contact-message').html("Email app launch requested.").fadeIn();
+        setInterval(function() {
+            form.find('.contact-message').fadeOut();
+        }, 5000);
+        form.removeClass('sending');
+        $('body').trigger('builder_contact_message_sent', [form, data.themify_message]);
+        form[0].reset();
+        if ( typeof grecaptcha === 'object' ) {
+            grecaptcha.reset();
+        }
     }
     $(document).ready(function(){
         if($('form.builder-contact').length>0){

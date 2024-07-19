@@ -9,7 +9,7 @@ Required Plugins: builder-contact, builder-maps-pro, builder-countdown, builder-
 GENERAL
 *************************************************************************************/
 body {
-	font: 1.3em/1.6em 'Josefin Sans', sans-serif;
+	font: 1.3em/1.6em 'Open Sans', sans-serif;
 	color: #505050;
 }
 .post-nav .arrow,
@@ -83,7 +83,7 @@ h2 {
 	margin: 0 0 .7em;
 }
 h3 {
-	font: bold 1.625em/1.4em 'Josefin Sans', sans-serif;
+	font: bold 1.625em/1.4em 'Open Sans', sans-serif;
 	text-transform: none;
 	letter-spacing: 0.02em;
 }
@@ -287,7 +287,7 @@ Timeline
 }
 #pagewrap .module-timeline.layout-list .module-timeline-title{
 	color: #404040;
-	font-family: "Josefin Slab",serif;   
+	font-family: "Open Slab",serif;
 	font-style: normal;
 	font-weight: bold;
 	letter-spacing: 0;   
@@ -492,7 +492,7 @@ MEDIA QUERIES
 	}
 	#pagewrap .module-timeline.layout-list .module-timeline-title {
 		color: #404040;
-		font-family: "Josefin Slab",serif;
+		font-family: "Open Slab",serif;
 		font-style: normal;
 		font-weight: bold;
 		letter-spacing: 0;
