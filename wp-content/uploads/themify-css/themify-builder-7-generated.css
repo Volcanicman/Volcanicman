@@ -129,16 +129,9 @@
 .themify_builder .text-7-4-0-1.module-text { column-count: 1;  } 
 .themify_builder .text-7-sub_row_4-0-2-1-0.module-text { column-count: 1;  } 
 
-.subscribe td {
-	padding-left: 5px;
-}
-.subscribe a span {
+.tb_section-subscribe a span {
 	display: none;
 }
-
-.subscribe td {
-	padding-left: 5px;
-}
-.subscribe a span {
-	display: none;
+.tb_section-subscribe i {
+	font-size: 2em;
 }
