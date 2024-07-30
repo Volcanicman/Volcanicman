@@ -60,6 +60,14 @@ MOBILE NAVIGATION
 	text-decoration: none !important;
 	font-size: 1em;
 }
+.mobile_menu_active header #site-logo {
+	display: none;
+}
+.fixed-header-on header #site-logo {
+	padding-top: 20px;
+	display: block;
+	width: 40px;
+}
 
 /* mobil menu panel */
 body.mobile-menu-visible {
@@ -904,6 +912,10 @@ body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-
 	.commentlist .avatar {
 		float: left;
 		margin: 0 1em 1em 0;
+	}
+
+	.tb_section-subscribe .image-wrapper {
+		display: none;
 	}
 
 	/************************************************************************************

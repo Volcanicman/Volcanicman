@@ -28,7 +28,7 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.67069"
-     inkscape:cx="357.33739"
+     inkscape:cx="357.93594"
      inkscape:cy="73.322998"
      inkscape:window-width="1920"
      inkscape:window-height="1175"
@@ -103,7 +103,7 @@
        transform="matrix(0.26458333,0,0,0.26458333,-48.10972,-219.13997)">
       <text
          xml:space="preserve"
-         style="font-size:126.667px;display:inline;fill:url(#linearGradient1559);fill-opacity:1"
+         style="font-size:126.667px;display:none;fill:url(#linearGradient1559);fill-opacity:1"
          x="545.57635"
          y="920.97449"
          id="text1557"><tspan
@@ -114,7 +114,7 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;text-anchor:middle;fill:url(#linearGradient1559);fill-opacity:1">VOLCANIC</tspan></text>
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;text-anchor:middle;display:inline;fill:url(#linearGradient35798);fill-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;text-anchor:middle;display:none;fill:url(#linearGradient35798);fill-opacity:1"
          x="550.95465"
          y="973.13593"
          id="text1558"><tspan
@@ -123,6 +123,117 @@
            x="560.95465"
            y="973.13593"
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';letter-spacing:20px;fill:url(#linearGradient35798);fill-opacity:1">INTERNATIONAL</tspan></text>
+      <g
+         id="g15">
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="223.74585"
+           y="973.13593"
+           id="text15">I</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="259.28623"
+           y="973.13593"
+           id="text14">N</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="318.68404"
+           y="973.13593"
+           id="text13">T</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="372.24851"
+           y="973.13593"
+           id="text12">E</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="421.87093"
+           y="973.13593"
+           id="text11">R</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="473.45297"
+           y="973.13593"
+           id="text10">N</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="532.8508"
+           y="973.13593"
+           id="text9">A</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="586.48364"
+           y="973.13593"
+           id="text8">T</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="637.24536"
+           y="973.13593"
+           id="text7">I</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="672.78574"
+           y="973.13593"
+           id="text6">O</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="733.61911"
+           y="973.13593"
+           id="text5">N</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="793.01691"
+           y="973.13593"
+           id="text4">A</text>
+        <text
+           style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
+           x="849.45252"
+           y="973.13593"
+           id="text3">L</text>
+      </g>
+      <g
+         id="g23">
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="188.08844"
+           y="920.97449"
+           id="text23">V</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="275.07923"
+           y="920.97449"
+           id="text22">O</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="381.79989"
+           y="920.97449"
+           id="text21">L</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="459.72979"
+           y="920.97449"
+           id="text20">C</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="557.38952"
+           y="920.97449"
+           id="text19">A</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="656.28628"
+           y="920.97449"
+           id="text18">N</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="763.22345"
+           y="920.97449"
+           id="text17">I</text>
+        <text
+           style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
+           x="805.40454"
+           y="920.97449"
+           id="text16">C</text>
+      </g>
     </g>
   </g>
 </svg>
