@@ -141,12 +141,13 @@
 }
 
 #main-nav #site-logo img {
+	display: block;
 	width: 75px;
 }
-.header-on-scroll #main-nav #site-logo img {
-	display: block;
-	width: 50px;
-	margin-bottom: 10px;
+.fixed-header-on #main-nav #site-logo img {
+	/*display: block;*/
+	/*width: 50px;*/
+	padding-bottom: 10px;
 }
 
 #themify_builder_content-7 .logo {

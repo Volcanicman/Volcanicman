@@ -63,7 +63,7 @@ MOBILE NAVIGATION
 .mobile_menu_active header #site-logo {
 	display: none;
 }
-.fixed-header-on header #site-logo {
+.mobile_menu_active.fixed-header-on header #site-logo {
 	padding-top: 20px;
 	display: block;
 	width: 40px;

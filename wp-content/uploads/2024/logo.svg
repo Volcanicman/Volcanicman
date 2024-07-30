@@ -9,9 +9,9 @@
    viewBox="0 0 1080 1080"
    sodipodi:docname="logo.svg"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   inkscape:export-filename="..\wp-content\uploads\2024\logo.png"
-   inkscape:export-xdpi="44.444443"
-   inkscape:export-ydpi="44.444443"
+   inkscape:export-filename="logo.png"
+   inkscape:export-xdpi="88.888885"
+   inkscape:export-ydpi="88.888885"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -147,7 +147,7 @@
        inkscape:groupmode="layer"
        id="layer1"
        inkscape:label="Background"
-       style="display:none">
+       style="display:inline">
       <rect
          style="fill:#000000"
          id="rect1557"
