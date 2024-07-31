@@ -49,13 +49,7 @@
 }
 
 }
-.themify_builder .text-7-1-0-1.module-text { color: #400000; text-align: center; column-count: 1; padding-right: 6%; padding-left: 6%; margin-bottom: 50px; border-top-color: #fdf5f4; border-top-width: 5px; border-top-style: solid; border-right-color: #fdf5f4; border-right-width: 5px; border-right-style: solid; border-bottom-color: #fdf5f4; border-bottom-width: 5px; border-bottom-style: solid; border-left-color: #fdf5f4; border-left-width: 5px; border-left-style: solid;  } 
-.themify_builder .text-7-1-0-1.module-text h1 { color: #400000;  } 
-.themify_builder .text-7-1-0-1.module-text h2 { color: #400000;  } 
-.themify_builder .text-7-1-0-1.module-text h3:not(.module-title) { color: #400000;  } 
-.themify_builder .text-7-1-0-1.module-text h4 { color: #400000;  } 
-.themify_builder .text-7-1-0-1.module-text h5 { color: #400000;  } 
-.themify_builder .text-7-1-0-1.module-text h6 { color: #400000;  } 
+.themify_builder .text-7-1-0-1.module-text { text-align: center; column-count: 1; padding-right: 6%; padding-left: 6%; margin-bottom: 100px;  }
 @media screen and (max-width: 480px) {/* .themify_builder_7_row.module_row_2 Style */
 .themify_builder_7_row.module_row_2.module_row {
 	padding-top : 12%
@@ -130,6 +124,11 @@
 .themify_builder .text-7-4-0-1.module-text { column-count: 1;  } 
 .themify_builder .text-7-sub_row_4-0-2-1-0.module-text { column-count: 1;  } 
 
+.tb_section-about {
+	background: rgba(2,28,2, 0.74);
+	color: #000;
+}
+
 .tb_section-subscribe a span {
 	display: none;
 }
@@ -142,7 +141,7 @@
 
 #main-nav #site-logo img {
 	display: block;
-	width: 75px;
+	width: 200px;
 }
 .fixed-header-on #main-nav #site-logo img {
 	/*display: block;*/

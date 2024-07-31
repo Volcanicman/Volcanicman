@@ -61,12 +61,12 @@ MOBILE NAVIGATION
 	font-size: 1em;
 }
 .mobile_menu_active header #site-logo {
-	display: none;
+	width: 170px;
 }
 .mobile_menu_active.fixed-header-on header #site-logo {
 	padding-top: 20px;
 	display: block;
-	width: 40px;
+	width: 170px;
 }
 
 /* mobil menu panel */
@@ -915,7 +915,8 @@ body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-
 	}
 
 	.tb_section-subscribe .image-wrapper {
-		display: none;
+		padding: 10px;
+		text-align: center;
 	}
 
 	/************************************************************************************

@@ -35,7 +35,7 @@
      inkscape:window-x="-7"
      inkscape:window-y="-7"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="text" />
   <defs
      id="defs1">
     <linearGradient
@@ -125,114 +125,114 @@
            style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';letter-spacing:20px;fill:url(#linearGradient35798);fill-opacity:1">INTERNATIONAL</tspan></text>
       <g
          id="g15">
-        <text
+        <path
+           d="m 235.50367,941.30322 v 31.83271 h -7.92969 v -31.83271 z"
+           id="text15"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="223.74585"
-           y="973.13593"
-           id="text15">I</text>
-        <text
+           aria-label="I" />
+        <path
+           d="m 295.08377,941.30322 v 31.83271 h -6.67643 l -17.59116,-20.3939 v 20.3939 h -7.92969 v -31.83271 h 7.26888 l 16.99871,19.45965 v -19.45965 z"
+           id="text14"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="259.28623"
-           y="973.13593"
-           id="text14">N</text>
-        <text
+           aria-label="N" />
+        <path
+           d="m 350.97248,941.30322 v 5.83334 h -11.52995 v 25.99937 h -7.92969 v -25.99937 h -11.52996 v -5.83334 z"
+           id="text13"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="318.68404"
-           y="973.13593"
-           id="text13">T</text>
-        <text
+           aria-label="T" />
+        <path
+           d="m 399.36441,967.30259 v 5.83334 h -23.47007 v -31.83271 h 23.15106 v 5.83334 h -15.22137 v 6.67644 h 14.51499 v 5.83333 h -14.51499 v 7.65626 z"
+           id="text12"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="372.24851"
-           y="973.13593"
-           id="text12">E</text>
-        <text
+           aria-label="E" />
+        <path
+           d="m 425.42563,941.30322 h 14.21876 q 4.62565,0 7.51954,2.68881 2.89388,2.66601 2.89388,6.47135 0,5.26368 -5.46875,7.79298 2.41536,1.07096 4.55729,5.85612 2.16472,4.78516 4.16993,9.02345 h -8.72722 q -0.77474,-1.57227 -2.71159,-5.99285 -1.91407,-4.42057 -3.30404,-5.67383 -1.36719,-1.25326 -2.93946,-1.25326 h -2.27865 v 12.91994 h -7.92969 z m 7.92969,5.83334 v 7.2461 h 4.19272 q 2.0052,0 3.16732,-0.93425 1.18489,-0.95703 1.18489,-2.71159 0,-3.60026 -4.53451,-3.60026 z"
+           id="text11"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="421.87093"
-           y="973.13593"
-           id="text11">R</text>
-        <text
+           aria-label="R" />
+        <path
+           d="m 509.25052,941.30322 v 31.83271 h -6.67643 l -17.59116,-20.3939 v 20.3939 h -7.92969 v -31.83271 h 7.26888 l 16.99871,19.45965 v -19.45965 z"
+           id="text10"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="473.45297"
-           y="973.13593"
-           id="text10">N</text>
-        <text
+           aria-label="N" />
+        <path
+           d="m 555.02207,941.30322 14.12761,31.83271 h -8.52214 l -2.62044,-6.28907 h -14.24155 l -2.36979,6.28907 h -8.40821 l 12.82878,-31.83271 z m 0.63802,19.98374 -5.12696,-12.37306 -4.67122,12.37306 z"
+           id="text9"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="532.8508"
-           y="973.13593"
-           id="text9">A</text>
-        <text
+           aria-label="A" />
+        <path
+           d="m 618.77208,941.30322 v 5.83334 h -11.52996 v 25.99937 h -7.92969 v -25.99937 h -11.52996 v -5.83334 z"
+           id="text8"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="586.48364"
-           y="973.13593"
-           id="text8">T</text>
-        <text
+           aria-label="T" />
+        <path
+           d="m 649.00318,941.30322 v 31.83271 h -7.92969 v -31.83271 z"
+           id="text7"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="637.24536"
-           y="973.13593"
-           id="text7">I</text>
-        <text
+           aria-label="I" />
+        <path
+           d="m 693.22523,940.89306 q 8.13477,0 13.17059,4.92188 5.03581,4.8991 5.03581,11.41603 0,6.60807 -5.10417,11.46159 -5.10417,4.85352 -13.10223,4.85352 -8.08919,0 -13.17058,-4.83073 -5.08138,-4.83073 -5.08138,-11.48438 0,-6.53972 5.03581,-11.43881 5.0586,-4.8991 13.21615,-4.8991 z m 0,26.04494 q 4.51173,0 7.26889,-2.66601 2.75716,-2.68881 2.75716,-7.04102 0,-4.37501 -2.75716,-7.04102 -2.75716,-2.66602 -7.26889,-2.66602 -4.5345,0 -7.31445,2.66602 -2.75717,2.66601 -2.75717,7.04102 0,4.35221 2.75717,7.04102 2.77995,2.66601 7.31445,2.66601 z"
+           id="text6"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="672.78574"
-           y="973.13593"
-           id="text6">O</text>
-        <text
+           aria-label="O" />
+        <path
+           d="m 769.41663,941.30322 v 31.83271 h -6.67644 l -17.59115,-20.3939 v 20.3939 h -7.9297 v -31.83271 h 7.26889 l 16.99871,19.45965 v -19.45965 z"
+           id="text5"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="733.61911"
-           y="973.13593"
-           id="text5">N</text>
-        <text
+           aria-label="N" />
+        <path
+           d="m 815.18815,941.30322 14.12761,31.83271 h -8.52214 l -2.62045,-6.28907 h -14.24154 l -2.3698,6.28907 h -8.4082 l 12.82878,-31.83271 z m 0.63802,19.98374 -5.12696,-12.37306 -4.67123,12.37306 z"
+           id="text4"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="793.01691"
-           y="973.13593"
-           id="text4">A</text>
-        <text
+           aria-label="A" />
+        <path
+           d="m 877.2748,967.30259 v 5.83334 h -24.2676 v -31.83271 h 7.9297 v 25.99937 z"
+           id="text3"
            style="font-weight:bold;font-size:46.6667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;letter-spacing:20px;fill:url(#linearGradient35798)"
-           x="849.45252"
-           y="973.13593"
-           id="text3">L</text>
+           aria-label="L" />
       </g>
       <g
          id="g23">
-        <text
+        <path
+           d="m 279.1922,834.57127 -39.95454,87.5165 h -9.33921 l -41.81001,-87.5165 h 23.44082 l 22.82232,49.29374 21.64719,-49.29374 z"
+           id="text23"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="188.08844"
-           y="920.97449"
-           id="text23">V</text>
-        <text
+           aria-label="V" />
+        <path
+           d="m 330.55789,833.45798 q 22.08013,0 35.74879,13.35941 13.66865,13.29756 13.66865,30.98641 0,17.93625 -13.8542,31.11011 -13.8542,13.17386 -35.56324,13.17386 -21.95644,0 -35.7488,-13.11201 -13.79235,-13.11202 -13.79235,-31.17196 0,-17.7507 13.66865,-31.04826 13.73051,-13.29756 35.8725,-13.29756 z m 0,70.69355 q 12.24612,0 19.72986,-7.23635 7.48375,-7.2982 7.48375,-19.11138 0,-11.87503 -7.48375,-19.11138 -7.48374,-7.23634 -19.72986,-7.23634 -12.30798,0 -19.85357,7.23634 -7.48375,7.23635 -7.48375,19.11138 0,11.81318 7.48375,19.11138 7.54559,7.23635 19.85357,7.23635 z"
+           id="text22"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="275.07923"
-           y="920.97449"
-           id="text22">O</text>
-        <text
+           aria-label="O" />
+        <path
+           d="m 457.31767,905.14111 v 15.83338 h -65.86931 v -86.40322 h 21.52349 v 70.56984 z"
+           id="text21"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="381.79989"
-           y="920.97449"
-           id="text21">L</text>
-        <text
+           aria-label="L" />
+        <path
+           d="m 549.90582,894.62676 v 18.86398 q -16.20447,8.59703 -33.95517,8.59703 -23.00787,0 -36.67653,-12.67907 -13.60681,-12.74092 -13.60681,-31.3575 0,-18.61659 14.349,-31.6049 14.41084,-12.98832 37.60426,-12.98832 18.49289,0 31.29566,7.60744 v 19.23508 q -15.70968,-8.84442 -29.74943,-8.84442 -13.79235,0 -22.57493,7.42189 -8.72072,7.36005 -8.72072,18.80213 0,11.50394 8.59703,18.98768 8.65887,7.48375 22.14198,7.48375 6.67971,0 12.86462,-1.73178 6.18491,-1.79362 18.43104,-7.79299 z"
+           id="text20"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="459.72979"
-           y="920.97449"
-           id="text20">C</text>
-        <text
+           aria-label="C" />
+        <path
+           d="m 617.56872,834.57127 38.34646,86.40322 H 632.7836 l -7.11264,-17.07036 h -38.6557 l -6.43231,17.07036 h -22.82233 l 34.82106,-86.40322 z m 1.73178,54.24167 -13.91606,-33.58407 -12.67907,33.58407 z"
+           id="text19"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="557.38952"
-           y="920.97449"
-           id="text19">A</text>
-        <text
+           aria-label="A" />
+        <path
+           d="m 753.45122,834.57127 v 86.40322 h -18.12179 l -47.74752,-55.35497 v 55.35497 h -21.52349 v -86.40322 h 19.72987 l 46.13944,52.81914 v -52.81914 z"
+           id="text18"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="656.28628"
-           y="920.97449"
-           id="text18">N</text>
-        <text
+           aria-label="N" />
+        <path
+           d="m 795.1376,834.57127 v 86.40322 h -21.5235 v -86.40322 z"
+           id="text17"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="763.22345"
-           y="920.97449"
-           id="text17">I</text>
-        <text
+           aria-label="I" />
+        <path
+           d="m 895.58056,894.62676 v 18.86398 q -16.20447,8.59703 -33.95517,8.59703 -23.00787,0 -36.67653,-12.67907 -13.6068,-12.74092 -13.6068,-31.3575 0,-18.61659 14.34899,-31.6049 14.41085,-12.98832 37.60427,-12.98832 18.49289,0 31.29565,7.60744 v 19.23508 q -15.70967,-8.84442 -29.74942,-8.84442 -13.79236,0 -22.57493,7.42189 -8.72073,7.36005 -8.72073,18.80213 0,11.50394 8.59703,18.98768 8.65888,7.48375 22.14198,7.48375 6.67971,0 12.86462,-1.73178 6.18491,-1.79362 18.43104,-7.79299 z"
+           id="text16"
            style="font-weight:bold;font-size:126.667px;font-family:'Gill Sans MT';-inkscape-font-specification:'Gill Sans MT Bold';text-align:center;fill:url(#linearGradient1559)"
-           x="805.40454"
-           y="920.97449"
-           id="text16">C</text>
+           aria-label="C" />
       </g>
     </g>
   </g>
