@@ -1,8 +1,30 @@
+/* Variable definitions. */
+/* `rgb` function takes three args for Red Green & Blue. Range for each arg is 0-255. */
+/* https://www.google.com/search?q=color+picker */
+:root {
+	--home-bg-image: url("../../../wp-content/uploads/2024/Banner-1024x474.jpg");
+	--home-text-color: rgb(255, 255, 255);
+	--about-bg-color: rgb(174, 174, 174);
+	--about-text-color: rgb(0, 0, 0);
+	--contact-bg-image: url(../../../wp-content/uploads/2017/05/Contact-banner-1-1024x569.jpg);
+	--contact-text-color: rgb(255, 255, 255);
+	--donate-bg-color: rgb(0, 0, 0);
+	--donate-text-color: rgb(255, 255, 255);
+	--subscribe-bg-color: rgb(86, 67, 67);
+	--subscribe-text-color: rgb(255, 255, 255);
+}
+
+
+
+
+
+/* Begin main CSS Styling. Best to leave everything below as-is. */
+
 /* .themify_builder_7_row.module_row_0 Style */
 .themify_builder_7_row.module_row_0.module_row {
-	background-image: url(../../../wp-content/uploads/2024/Banner-1024x474.jpg);
+	background-image: var(--home-bg-image);
 	text-align: center;
-	color: #ffffff;
+	color: var(--home-text-color);
 	padding-top : 25%;
 	padding-bottom : 5%;
 }
@@ -50,16 +72,16 @@
 
 }
 .themify_builder .text-7-1-0-1.module-text { text-align: center; column-count: 1; padding-right: 6%; padding-left: 6%; margin-bottom: 100px;  }
-@media screen and (max-width: 480px) {/* .themify_builder_7_row.module_row_2 Style */
-.themify_builder_7_row.module_row_2.module_row {
-	padding-top : 12%
-}
+/*@media screen and (max-width: 480px) {!* .themify_builder_7_row.module_row_2 Style *!*/
+/*.themify_builder_7_row.module_row_2.module_row {*/
+/*	padding-top : 12%*/
+/*}*/
 
-}
+/*}*/
 .themify_builder .text-7-2-0-1.module-text { text-align: center; column-count: 1;  } 
 /* .themify_builder_7_row.module_row_3 Style */
 .themify_builder_7_row.module_row_3.module_row {
-	background-image: url(../../../wp-content/uploads/2017/05/Contact-banner-1-1024x569.jpg);
+	background-image: var(--contact-bg-image);
 	background-color: #000000;
 	background-color: rgba(0,0,0, 0.61);
 	color: #ffffff;
@@ -122,13 +144,16 @@
 }
 
 .themify_builder .text-7-4-0-1.module-text { column-count: 1;  } 
-.themify_builder .text-7-sub_row_4-0-2-1-0.module-text { column-count: 1;  } 
+.themify_builder .text-7-sub_row_4-0-2-1-0.module-text { column-count: 1;  }
 
 .tb_section-about {
-	background: #ccdac1;
-	color: #000;
+	background: var(--about-bg-color);
+	color: var(--about-text-color);
 }
 
+.tb_section-subscribe {
+	text-align: center;
+}
 .tb_section-subscribe a span {
 	display: none;
 }
@@ -153,6 +178,16 @@
 	width: 500px;
 }
 
+.tb_section-donate {
+	color: var(--donate-text-color);
+	background-color: var(--donate-bg-color);
+}
 .tb_section-donate .module-image {
 	padding-top: 30px;
+}
+
+/* Subscribe section */
+.tb_section-subscribe {
+	color: var(--subscribe-text-color);
+	background-color: var(--subscribe-bg-color);
 }
