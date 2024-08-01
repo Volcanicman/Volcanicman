@@ -192,3 +192,6 @@
 	color: var(--subscribe-text-color);
 	background-color: var(--subscribe-bg-color);
 }
+.tb_section-subscribe .sub_column .tb-column-inner {
+	height: 100%;
+}
