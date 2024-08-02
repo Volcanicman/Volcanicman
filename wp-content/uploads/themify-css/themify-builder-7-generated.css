@@ -2,7 +2,7 @@
 /* `rgb` function takes three args for Red Green & Blue. Range for each arg is 0-255. */
 /* https://www.google.com/search?q=color+picker */
 :root {
-	--home-bg-image: url("../../../wp-content/uploads/2024/Banner-1024x474.jpg");
+	--home-bg-image: url("../../../wp-content/uploads/2024/Banner-cropped.jpg");
 	--home-bg-overlay: rgba(0, 0, 0, .3);
 	--home-text-color: rgb(255, 255, 255);
 	--about-bg-color: rgb(174, 174, 174);
