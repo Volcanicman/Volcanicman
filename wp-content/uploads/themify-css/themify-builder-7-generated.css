@@ -151,6 +151,11 @@
 	background: var(--about-bg-color);
 	color: var(--about-text-color);
 }
+.tb_section-about img {
+	margin: 0 5px 5px 0;
+	float: left;
+	width: 200px;
+}
 
 .tb_section-subscribe {
 	text-align: center;

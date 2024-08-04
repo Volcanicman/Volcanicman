@@ -984,6 +984,23 @@ body:not(.header-overlay):not(.header-minbar):not(.header-leftpane):not(.header-
 		flex-wrap: wrap;
 	}
 
+	.tb_section-about img {
+		width: 125px;
+	}
+}
+
+@media screen and (max-width: 400px) {
+	body {
+		font-size: .5em;
+	}
+	.tb-column-inner {
+		font-size: 14px;
+		line-height: 1.7em;
+	}
+
+	.tb_section-about img {
+		width: 80px;
+	}
 }
 
 /************************************************************************************
