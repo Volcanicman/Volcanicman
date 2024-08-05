@@ -2,6 +2,8 @@
 /* `rgb` function takes three args for Red Green & Blue. Range for each arg is 0-255. */
 /* https://www.google.com/search?q=color+picker */
 :root {
+	--text-align: left;
+
 	--home-bg-image: url("../../../wp-content/uploads/2024/Banner-cropped.jpg");
 	--home-bg-overlay: rgba(0, 0, 0, .3);
 	--home-text-color: rgb(255, 255, 255);
@@ -72,14 +74,14 @@
 }
 
 }
-.themify_builder .text-7-1-0-1.module-text { text-align: center; column-count: 1; padding-right: 6%; padding-left: 6%; margin-bottom: 100px;  }
+.themify_builder .text-7-1-0-1.module-text { text-align: var(--text-align); column-count: 1; padding-right: 6%; padding-left: 6%; margin-bottom: 100px;  }
 /*@media screen and (max-width: 480px) {!* .themify_builder_7_row.module_row_2 Style *!*/
 /*.themify_builder_7_row.module_row_2.module_row {*/
 /*	padding-top : 12%*/
 /*}*/
 
 /*}*/
-.themify_builder .text-7-2-0-1.module-text { text-align: center; column-count: 1;  } 
+.themify_builder .text-7-2-0-1.module-text { text-align: var(--text-align); column-count: 1;  }
 /* .themify_builder_7_row.module_row_3 Style */
 .themify_builder_7_row.module_row_3.module_row {
 	background-image: var(--contact-bg-image);
@@ -124,7 +126,7 @@
 }
 
 }
-.themify_builder .text-7-sub_row_3-0-1-0-0.module-text { color: #ffffff; text-align: center; column-count: 1; margin-bottom: 50px;  } 
+.themify_builder .text-7-sub_row_3-0-1-0-0.module-text { color: #ffffff; text-align: var(--text-align); column-count: 1; margin-bottom: 50px;  }
 .themify_builder .text-7-sub_row_3-0-1-0-0.module-text h1 { color: #ffffff;  } 
 .themify_builder .text-7-sub_row_3-0-1-0-0.module-text h2 { color: #ffffff;  } 
 .themify_builder .text-7-sub_row_3-0-1-0-0.module-text h3:not(.module-title) { color: #ffffff;  } 
@@ -168,6 +170,12 @@
 }
 .tb_section-subscribe h3 {
 	text-align: center;
+}
+.tb_section-subscribe div {
+	padding-bottom: 15px;
+}
+.tb_section-subscribe p {
+	text-align: var(--text-align);
 }
 
 #main-nav #site-logo img {
