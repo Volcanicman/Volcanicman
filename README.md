@@ -2,17 +2,18 @@
 [Static Website](https://pages.github.com)
 
 ## Section Text Modification
-Changes to text in each website section can be made by modifying & saving the following files.
+Changes to text in each website section can be made by modifying & saving template files.
 These files are dynamically loaded into the [index](index.html) file via JavaScript.
-Each file uses [basic HTML formatting tags](https://www.w3schools.com/html/html_formatting.asp) &
-[heading tags](https://www.w3schools.com/html/html_headings.asp).
+Each file primarily uses [Markdown](https://www.markdownguide.org/cheat-sheet) syntax & also supports HTML syntax.
 
-* [home](home.html)
-* [about](about.html)
-* [contact](contact.html)
-* [donate](donate.html)
-* [sermons](sermons.html)
-* [podcast](podcast.html)
+* [home](templates/home.md.js)
+* [about](templates/about.md.js)
+* [contact](templates/contact.md.js)
+* [video](templates/video.md.js)
+* [donate](templates/donate.md.js)
+* [subscribe1](templates/subscribe1.md.js) (subscribe picture)
+* [subscribe2](templates/subscribe2.md.js) (sermons)
+* [subscribe3](templates/subscribe3.md.js) (podcasts)
 
 To modify the files, log into your GitHub account, navigate to the relevant file in this repository
 & click the Pencil button to the top-right of the file. Once you've made your edits, click the
@@ -21,8 +22,22 @@ in fields, where deemed necessary. This information makes it easier to review pa
 click the `Commit changes` button in the modal. That's it! Refresh the site in your browser to confirm
 your changes had the desired effect. There may be a slight delay while the changes are deployed.
 
+### Templating
+Each of these templates use [Markdown](https://www.markdownguide.org/cheat-sheet) syntax, embedded into a JavaScript variable.
+This allows JavaScript functions to be called during template rendering.
+
+#### Available Functions
+
+* [icons](js/functions/icons.js) For rendering lists of social media network icons.
+* [logo](js/functions/logo.js) For rendering logo elements.
+* [photo](js/functions/photo.js) For rendering photo elements.
+* [raster](js/functions/raster.js) For rendering raster graphic elements.
+* [vector](js/functions/vector.js) For rendering vector graphic elements.
+
 ## Styling Variables
 Basic Section styling can be modified with relative ease.
-[This file](wp-content/uploads/themify-css/themify-builder-7-generated.css) has a section at the
-top defining variables used by each section. If colors need to be changed, modify the top of that
-file & commit the changes as described above.
+Variables have been defined in the following files to allow easy modification:
+
+* [colors](css/colors.css)
+* [text](css/text.css)
+* [images](css/images.css)

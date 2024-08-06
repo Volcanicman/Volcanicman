@@ -25,7 +25,7 @@
             "ext": ".png",
             "svgUrl": "https:\/\/s.w.org\/images\/core\/emoji\/15.0.3\/svg\/",
             "svgExt": ".svg",
-            "source": {"concatemoji": "\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}
+            "source": {"concatemoji": "wp-includes\/js\/wp-emoji-release.min.js?ver=6.5.5"}
         };
         /*! This file is auto-generated */
         !function (i, n) {
@@ -114,6 +114,7 @@
         /* ]]> */
     </script>
     <script src="https://kit.fontawesome.com/6122f86239.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <link rel="stylesheet" id="themify-common-css"
           href="wp-content/themes/themify-ultra/themify/css/themify.common.css?ver=6.5.5" type="text/css" media="all">
     <meta name="builder-styles-css" content="" id="builder-styles-css">
@@ -487,6 +488,9 @@
           href="wp-content/themes/themify-ultra/styles/theme-color-black.css?ver=6.5.5" type="text/css" media="all">
     <link rel="stylesheet" id="ultra-header-css"
           href="wp-content/themes/themify-ultra/styles/header-menu-split.css?ver=6.5.5" type="text/css" media="all">
+    <link rel="stylesheet" href="css/colors.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/text.css" type="text/css" media="all">
+    <link rel="stylesheet" href="css/images.css" type="text/css" media="all">
     <link rel="stylesheet" id="themify-builder-7-generated-css"
           href="wp-content/uploads/themify-css/themify-builder-7-generated.css?ver=24.06.14.22.02.21" type="text/css"
           media="all">
@@ -684,7 +688,7 @@
                             })(jQuery('body'), document.body)
                         </script>
                         <script type="text/javascript">
-                            if (document.getElementById("builder-styles-css")) document.getElementById("builder-styles-css").insertAdjacentHTML("beforebegin", "<link id='builder-styles' rel='stylesheet' href='/wp-content/themes/themify-ultra/themify/themify-builder/css/themify-builder-style.css?ver=3.1.6' type='text/css' />");
+                            if (document.getElementById("builder-styles-css")) document.getElementById("builder-styles-css").insertAdjacentHTML("beforebegin", "<link id='builder-styles' rel='stylesheet' href='wp-content/themes/themify-ultra/themify/themify-builder/css/themify-builder-style.css?ver=3.1.6' type='text/css' />");
                         </script>
                         <div id="themify_builder_content-7" data-postid="7"
                              class="themify_builder_content themify_builder_content-7 themify_builder themify_builder_front">
@@ -713,7 +717,7 @@
 
 
                                                 <!-- module text -->
-                                                <div id="home" class="module module-text text-7-0-0-2">
+                                                <div id="home" class="section module module-text text-7-0-0-2">
                                                     <noscript>Please enable JavaScript</noscript>
                                                 </div>
                                                 <!-- /module text -->
@@ -752,7 +756,7 @@
                                         <div class="col-full first tb-column  module_column tb_7_column module_column_0 module_column_7-1-0">
                                             <div class="tb-column-inner">
                                                 <!-- module text -->
-                                                <div id="about" class="module module-text text-7-1-0-1   "></div>
+                                                <div id="about" class="section module module-text text-7-1-0-1   "></div>
                                                 <!-- /module text -->
                                             </div><!-- /.tb-column-inner -->
                                         </div>
@@ -784,14 +788,7 @@
                                                 <!-- module video -->
                                                 <div id="video-7-2-0-2"
                                                      class="module module-video video-7-2-0-2 video-overlay  ">
-
-
-                                                    <div class="video-wrap">
-                                                        <iframe title="About / Volcanic International"
-                                                                src="https://player.vimeo.com/video/212780263?dnt=1&amp;app_id=122963"
-                                                                width="1165" height="655"
-                                                                allow="autoplay; fullscreen; picture-in-picture; clipboard-write"></iframe>
-                                                    </div>
+                                                    <div id="video" class="section video-wrap"></div>
                                                     <!-- /video-wrap -->
                                                 </div>
                                                 <!-- /module video -->
@@ -838,7 +835,7 @@
 
                                                                 <!-- module text -->
                                                                 <div id="contact"
-                                                                     class="module module-text text-7-sub_row_3-0-1-0-0">
+                                                                     class="section module module-text text-7-sub_row_3-0-1-0-0">
                                                                 </div>
                                                                 <!-- /module text -->
 
@@ -849,7 +846,7 @@
 
 
                                                                 <script type="text/javascript">
-                                                                    if (!jQuery("#contact-css").length) jQuery("body").append("<link id='contact-css' rel='stylesheet' href='/wp-content/plugins/builder-contact/assets/style.css?ver=1.1.5' type='text/css' />");
+                                                                    if (!jQuery("#contact-css").length) jQuery("body").append("<link id='contact-css' rel='stylesheet' href='wp-content/plugins/builder-contact/assets/style.css?ver=1.1.5' type='text/css' />");
                                                                 </script><!-- module contact -->
                                                                 <div id="contact-7-sub_row_3-0-1-1-0"
                                                                      class="module module-contact contact-7-sub_row_3-0-1-1-0 contact-style1  ">
@@ -950,7 +947,7 @@
                                                 <!-- /module image -->
 
                                                 <!-- module text -->
-                                                <div id="donate" class="module module-text text-7-4-0-1"></div>
+                                                <div id="donate" class="section module module-text text-7-4-0-1"></div>
                                                 <!-- /module text -->
 
                                                 <div class="themify_builder_sub_row clearfix module_subrow sub_row_4-0-2 ">
@@ -970,26 +967,7 @@
                                                                 <!-- module text -->
                                                                 <div id="text-7-sub_row_4-0-2-1-0"
                                                                      class="module module-text text-7-sub_row_4-0-2-1-0   ">
-                                                                    <p></p>
-                                                                    <center>
-                                                                        <form action="https://www.paypal.com/cgi-bin/webscr"
-                                                                              method="post" target="_top">
-                                                                            <p><input type="hidden" name="cmd"
-                                                                                      value="_s-xclick"></p>
-                                                                            <p><input type="hidden"
-                                                                                      name="hosted_button_id"
-                                                                                      value="GWPP39LTM8NXN"></p>
-                                                                            <p><input type="image"
-                                                                                      src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif"
-                                                                                      border="0" name="submit"
-                                                                                      alt="PayPal - The safer, easier way to pay online!">
-                                                                            </p>
-                                                                            <p><img decoding="async" alt="" border="0"
-                                                                                    src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif"
-                                                                                    width="1" height="1"></p>
-                                                                        </form>
 
-                                                                        <p></p></center>
                                                                 </div>
                                                                 <!-- /module text -->
 
@@ -1044,16 +1022,14 @@
                                                     <div class="sub_row_inner_wrapper gutter-default tablet-col-direction-ltr desktop-col-direction-ltr mobile-col-direction-ltr">
 
                                                         <div class="col3-1 first sub_column module_column sub_column_4-0-2-0 sub_column_post_7 image-wrapper">
-                                                            <div class="tb-column-inner">
-                                                                <img src="wp-content/uploads/2024/EVRGRN-8982-2c.jpg" alt="Aaron preaching at a podium while holding a microphone">
-                                                            </div>
+                                                            <div id="subscribe1" class="section tb-column-inner"></div>
                                                         </div><!-- /sub_column -->
                                                         <div class="col3-1 sub_column module_column sub_column_4-0-2-1 sub_column_post_7">
                                                             <div class="tb-column-inner">
 
                                                                 <!-- module text -->
-                                                                <div id="sermons"
-                                                                     class="module module-text text-7-sub_row_4-0-2-1-0"></div>
+                                                                <div id="subscribe2"
+                                                                     class="section module module-text text-7-sub_row_4-0-2-1-0"></div>
                                                                 <!-- /module text -->
 
                                                             </div>
@@ -1062,8 +1038,8 @@
                                                             <div class="tb-column-inner">
 
                                                                 <!-- module text -->
-                                                                <div id="podcast"
-                                                                     class="module module-text text-7-sub_row_4-0-2-1-0"></div>
+                                                                <div id="subscribe3"
+                                                                     class="section module module-text text-7-sub_row_4-0-2-1-0"></div>
                                                                 <!-- /module text -->
                                                             </div>
                                                         </div><!-- /sub_column --></div>
@@ -1143,15 +1119,15 @@
     /* <![CDATA[ */
     var themify_vars = {
         "version": "3.1.6",
-        "url": "\/wp-content\/themes\/themify-ultra\/themify",
+        "url": "wp-content\/themes\/themify-ultra\/themify",
         "map_key": "AIzaSyCvN-fgExMyMYs_m9i8kN5k_XKfoGCUnE4"
     };
     var themify_vars = {
         "version": "3.1.6",
-        "url": "\/wp-content\/themes\/themify-ultra\/themify",
+        "url": "wp-content\/themes\/themify-ultra\/themify",
         "TB": "1",
         "map_key": "AIzaSyCvN-fgExMyMYs_m9i8kN5k_XKfoGCUnE4",
-        "includesURL": "\/wp-includes\/",
+        "includesURL": "wp-includes\/",
         "isCached": "on"
     };
     var tbLocalScript = {
@@ -1161,10 +1137,10 @@
         "animationInviewSelectors": [".module.wow", ".themify_builder_content .themify_builder_row.wow", ".module_row.wow", ".builder-posts-wrap > .post.wow"],
         "backgroundSlider": {"autoplay": 5000, "speed": 2000},
         "animationOffset": "100",
-        "videoPoster": "\/wp-content\/themes\/themify-ultra\/themify\/themify-builder\/img\/blank.png",
+        "videoPoster": "wp-content\/themes\/themify-ultra\/themify\/themify-builder\/img\/blank.png",
         "backgroundVideoLoop": "yes",
         "builder_url": "wp-content\/themes\/themify-ultra\/themify\/themify-builder",
-        "framework_url": "\/wp-content\/themes\/themify-ultra\/themify",
+        "framework_url": "wp-content\/themes\/themify-ultra\/themify",
         "version": "3.1.6",
         "fullwidth_support": "1",
         "fullwidth_container": "body",
@@ -1172,8 +1148,8 @@
         "addons": {
             "contact": {
                 "selector": ".module-contact",
-                "css": "\/wp-content\/plugins\/builder-contact\/assets\/style.css",
-                "js": "\/wp-content\/plugins\/builder-contact\/assets\/scripts.js",
+                "css": "wp-content\/plugins\/builder-contact\/assets\/style.css",
+                "js": "wp-content\/plugins\/builder-contact\/assets\/scripts.js",
                 "external": "var BuilderContact = {\"admin_url\":\"https:\\\/\\\/volcanicinternational.org\\\/wp-admin\\\/admin-ajax.php\"};",
                 "ver": "1.1.5"
             }
@@ -1214,7 +1190,7 @@
 <script type="text/javascript" id="theme-script-js-extra">
     /* <![CDATA[ */
     var themifyScript = {
-        "themeURI": "\/wp-content\/themes\/themify-ultra",
+        "themeURI": "wp-content\/themes\/themify-ultra",
         "lightbox": {
             "lightboxSelector": ".themify_lightbox",
             "lightboxOn": true,
@@ -1239,7 +1215,7 @@
         "smallScreen": "760",
         "resizeRefresh": "250",
         "parallaxHeader": "1",
-        "loadingImg": "\/wp-content\/themes\/themify-ultra\/images\/loading.gif",
+        "loadingImg": "wp-content\/themes\/themify-ultra\/images\/loading.gif",
         "maxPages": "0",
         "autoInfinite": "auto",
         "scrollToNewOnLoad": "scroll",
@@ -1277,7 +1253,7 @@
     };
     /* ]]> */
 </script>
-<script type="text/javascript" src="wp-includes/js/main.js"></script>
+<script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="wp-content/themes/themify-ultra/js/themify.script.js?ver=1.7.6"
         id="theme-script-js"></script>
 <script type="text/javascript" src="wp-includes/js/comment-reply.min.js?ver=6.5.5" id="comment-reply-js" async="async"

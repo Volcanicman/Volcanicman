@@ -1,0 +1,13 @@
+/* `rgb` function takes three args for Red Green & Blue. Range for each arg is 0-255. */
+/* https://www.google.com/search?q=color+picker */
+:root {
+    --home-bg-overlay: rgba(0, 0, 0, .3);
+    --home-text-color: rgb(255, 255, 255);
+    --about-bg-color: rgb(174, 174, 174);
+    --about-text-color: rgb(0, 0, 0);
+    --contact-text-color: rgb(255, 255, 255);
+    --donate-bg-color: rgb(0, 0, 0);
+    --donate-text-color: rgb(255, 255, 255);
+    --subscribe-bg-color: rgb(86, 67, 67);
+    --subscribe-text-color: rgb(255, 255, 255);
+}

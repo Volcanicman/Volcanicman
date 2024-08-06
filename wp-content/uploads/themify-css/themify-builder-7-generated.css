@@ -1,26 +1,3 @@
-/* Variable definitions. */
-/* `rgb` function takes three args for Red Green & Blue. Range for each arg is 0-255. */
-/* https://www.google.com/search?q=color+picker */
-:root {
-	--text-align: left;
-
-	--home-bg-image: url("../../../wp-content/uploads/2024/Banner-cropped.jpg");
-	--home-bg-overlay: rgba(0, 0, 0, .3);
-	--home-text-color: rgb(255, 255, 255);
-	--about-bg-color: rgb(174, 174, 174);
-	--about-text-color: rgb(0, 0, 0);
-	--contact-bg-image: url("../../../wp-content/uploads/2017/05/Contact-banner-1-1024x569.jpg");
-	--contact-text-color: rgb(255, 255, 255);
-	--donate-bg-color: rgb(0, 0, 0);
-	--donate-text-color: rgb(255, 255, 255);
-	--subscribe-bg-color: rgb(86, 67, 67);
-	--subscribe-text-color: rgb(255, 255, 255);
-}
-
-
-
-
-
 /* Begin main CSS Styling. Best to leave everything below as-is. */
 
 /* .themify_builder_7_row.module_row_0 Style */
@@ -198,6 +175,9 @@
 }
 .tb_section-donate .module-image {
 	padding-top: 30px;
+}
+.tb_section-donate form {
+	text-align: var(--donate-form-align);
 }
 
 /* Subscribe section */
