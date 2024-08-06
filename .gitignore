@@ -1,5 +1,5 @@
 /local/
 .idea
 
-*.Identifier
+*Zone.Identifier
 .DS_store
