@@ -3,6 +3,7 @@
 /* .themify_builder_7_row.module_row_0 Style */
 .themify_builder_7_row.module_row_0.module_row {
 	background-image: var(--home-bg-image);
+	background-color: black;
 	text-align: center;
 	color: var(--home-text-color);
 	padding-top : 25%;

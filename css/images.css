@@ -1,4 +1,4 @@
 :root {
-    --home-bg-image: url("../../../wp-content/uploads/2024/Banner-cropped.jpg");
-    --contact-bg-image: url("../../../wp-content/uploads/2017/05/Contact-banner-1-1024x569.jpg");
+    --home-bg-image: url("../wp-content/uploads/2024/Banner-cropped.jpg");
+    --contact-bg-image: url("../wp-content/uploads/2017/05/Contact-banner-1-1024x569.jpg");
 }

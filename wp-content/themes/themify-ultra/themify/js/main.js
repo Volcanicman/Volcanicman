@@ -129,7 +129,7 @@ var Themify, ThemifyGallery;
 		InitCarousel: function () {
 			if ($('.slides[data-slider]').length > 0) {
 				var $self = this;
-				$self.LoadAsync(themify_vars.includesURL + 'js/imagesloaded.min.js', function () {
+				$self.LoadAsync('js/libraries/imagesloaded.min.js', function () {
 						if('undefined' === typeof $.fn.carouFredSel){
 							$self.LoadAsync(themify_vars.url + '/js/carousel.js', $self.carouselCalback, null, null, function () {
 								return ('undefined' !== typeof $.fn.carouFredSel);
@@ -520,7 +520,7 @@ var Themify, ThemifyGallery;
 			if ( $('.module.module-gallery,.module.module-image').length > 0) {
 				
 				if( $( '.gallery-masonry' ).length > 0) {
-					this.LoadAsync(themify_vars.includesURL + 'js/imagesloaded.min.js', function () {
+					this.LoadAsync('js/libraries/imagesloaded.min.js', function () {
 						self.LoadAsync(themify_vars.includesURL + 'js/masonry.min.js', function () {
 							$( '.gallery-masonry' ).imagesLoaded(function() {
 								$( '.gallery-masonry' ).masonry({

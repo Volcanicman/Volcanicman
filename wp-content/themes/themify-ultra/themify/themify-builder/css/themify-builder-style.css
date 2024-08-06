@@ -3782,39 +3782,7 @@ BACKGROUND IMAGE MODE
 .themify_builder_row, .module_column, .module_subrow, .sub_column {
 	position: relative;
 }
-.builder_row_cover {
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	z-index: 0;
-	-webkit-transition: all .5s ease-out;
-	-moz-transition: all .5s ease-out;
-	-o-transition: all .5s ease-out;
-	transition: all .5s ease-out;
-}
-.builder_row_cover:before{
-        height: 100%;
-        width: 100%;
-        position: absolute;
-        top: 0; 
-        left: 0;
-        opacity: 0;
-        z-index: -100;
-        content: '';    
-        display: block;
-        -moz-transition: opacity .5s ease-in-out;
-        -webkit-transition: opacity .5s ease-in-out;
-        -o-transition: all .5s ease-out;
-        transition: opacity .5s ease-in-out;
-}
-.themify_builder_row:hover>.builder_row_cover:before,
-.module_subrow:hover>.builder_row_cover:before,
-.module_column:hover>.builder_row_cover:before,
-.sub_column:hover>.builder_row_cover:before{
-        opacity: 1; 
-}
+
 .row_inner_wrapper, .sub_row_inner_wrapper {
 	position: relative; /* needed to make sure modules are displayed over the cover */
         width:100%;
