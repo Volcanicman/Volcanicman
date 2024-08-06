@@ -1,9 +1,12 @@
 # Volcanic International
 [Static Website](https://pages.github.com)
 
+This site can load without a server! Clone this repository to your computer &
+just open the [index file](index.html) in a web browser!
+
 ## Section Text Modification
 Changes to text in each website section can be made by modifying & saving template files.
-These files are dynamically loaded into the [index](index.html) file via JavaScript.
+These files are dynamically loaded into the [index file](index.html) via JavaScript.
 Each file primarily uses [Markdown](https://www.markdownguide.org/cheat-sheet) syntax & also supports HTML syntax.
 
 * [home](templates/home.md.js)
